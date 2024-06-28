@@ -21,7 +21,7 @@
 - Websocket
 
 ### Other tools:
-- Docker for building the app
+- Docker, Docker Compose for building the app
 
 ## The process of submitting and approving conduct grades flows by this Sequence Diagram:
 
