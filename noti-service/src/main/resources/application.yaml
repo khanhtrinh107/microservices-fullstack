@@ -1,0 +1,25 @@
+server:
+  port: 8086
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: notification-service
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/hdv-noti-service
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  kafka:
+    consumer:
+      bootstrap-servers: localhost:9092
+      group-id: notification-group

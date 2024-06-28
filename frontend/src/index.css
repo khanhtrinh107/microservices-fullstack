@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.ant-menu-item-selected{
+  background: rgb(212, 204, 204) !important;
+}
+
+.ant-menu-item{
+  color: #ad171c !important;
+}
+
+.ant-table-thead .ant-table-cell{
+  color: #ad171c !important;
+}
+
+.ant-spin-nested-loading{
+  height: 100%;
+  width: 100%;
+}
+
+.ant-spin-container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.row-table:hover{
+  cursor: pointer;
+}
+
+.ant-input-outlined:focus-within{
+  border-color: #ad171c !important;
+}
+
+.ant-input-outlined:hover{
+  border-color: #ad171c !important;
+}
+
+#normal_login_remember:checked{
+  background: #ad171c !important;
+}
+
+.ant-drawer-title{
+  color: #ad171c !important;
+}
+
+.ant-modal-title{
+  color: #ad171c !important;
+}
+
+
+.ant-select-selector:hover {
+  border-color: #ad171c !important;
+}
+
+.ant-picker-outlined:hover{
+  border-color: #ad171c !important;
+}
+
+
+.ant-list-item{
+  padding: 20px 10px 20px 10px !important;
+}
+
+.list-submut-item:hover{
+  cursor: pointer;
+  background: #eeebeb;
+}
+
+.user-avatar:hover{
+  cursor: pointer;
+}
+
+.loading-submit{
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 418px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eeebeb;
+    opacity: 0.6;
+    z-index: 10000;
+}
